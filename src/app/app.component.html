@@ -1,0 +1,27 @@
+<style>
+  section {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  #answer {
+    font-size: 100px;
+    font-weight: bold;
+  }
+</style>
+
+<section>
+  <h1>
+    Het is {{time|date:'mediumTime'}}
+  </h1>
+
+  <h2>Is het tijd voor een Cava'tje?</h2>
+  
+  <h1 id="answer">
+    <ng-container *ngIf="answer">JA!</ng-container>
+    <ng-container *ngIf="!answer">Nee...</ng-container>
+  </h1>
+</section>
+

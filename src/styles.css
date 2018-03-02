@@ -1,0 +1,11 @@
+html body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+    width: 100%;
+    background-color: #333132;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
