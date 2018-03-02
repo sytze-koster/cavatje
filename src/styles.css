@@ -3,9 +3,10 @@ html body {
 	padding: 0;
 	height: 100vh;
     width: 100%;
-    background-color: #333132;
-    color: white;
+    background-image: linear-gradient(45deg, #00a8c5, #ffff7e);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
 }
