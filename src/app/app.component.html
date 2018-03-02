@@ -9,6 +9,9 @@
   #time {
     font-size: 2em;
   }
+  #time > b {
+    font-size: 1.5em;
+  }
 
   #question {
     font-style: italic;
@@ -22,7 +25,7 @@
 
 <section>
   <h1 id="time">
-    Het is {{time|date:'h:mm:ss'}}
+    Het is <b>{{time|date:'h:mm:ss'}}</b>
   </h1>
 
   <h2 id="question">Is het tijd voor een Cava'tje?</h2>
