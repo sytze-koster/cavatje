@@ -6,6 +6,14 @@
     text-align: center;
   }
 
+  #time {
+    font-size: 2em;
+  }
+
+  #question {
+    font-style: italic;
+  }
+
   #answer {
     font-size: 100px;
     font-weight: bold;
@@ -13,11 +21,11 @@
 </style>
 
 <section>
-  <h1>
-    Het is {{time|date:'mediumTime'}}
+  <h1 id="time">
+    Het is {{time|date:'h:mm:ss'}}
   </h1>
 
-  <h2>Is het tijd voor een Cava'tje?</h2>
+  <h2 id="question">Is het tijd voor een Cava'tje?</h2>
   
   <h1 id="answer">
     <ng-container *ngIf="answer">JA!</ng-container>
