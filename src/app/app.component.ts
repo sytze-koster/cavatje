@@ -10,7 +10,7 @@ import 'rxjs/add/observable/interval';
 export class AppComponent {
   time = new Date();
   get answer() {
-    return this.time.getHours() >= 12;
+    return this.time.getHours() >= 11;
   }
 
   constructor() {
